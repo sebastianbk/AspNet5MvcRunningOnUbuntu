@@ -15,7 +15,7 @@
         "Microsoft.AspNet.Mvc": "6.0.0-beta1"
     },
     "commands": {
-        "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server http://localhost:3000"
+        "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:3000"
     },
     "frameworks" : {
         "aspnet50" : { },
